@@ -42,6 +42,21 @@
 
             #endregion
 
+            #region Q5 Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen *
+
+            //int Num1 = 4;
+            //int Num2 = 5;
+            //Num1 = Num2;
+            //Num2 = 1;
+            //Console.WriteLine($" Num1 = {Num1} \n Num2 = {Num2}");
+
+            /**
+             * Result:
+             * the value of Num2 will be copied to Num1
+             * then Num1 will be equal 5 and Num2 will be equal 1
+             */
+            #endregion
+
         }
     }
 }
