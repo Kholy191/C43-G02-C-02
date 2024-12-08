@@ -83,6 +83,14 @@
             ////or
             //Console.WriteLine(string.Format(Name1 + " " + Name2));
             #endregion
+
+            #region Question 8
+            /* Which of the following statements is correct about the C#.NET code snippet given below?
+            int d;
+            d = Convert.ToInt32(!(30 < 20));*/
+
+            //Answer: (a) A value 1 will be assigned to d.
+            #endregion
         }
     }
 }
