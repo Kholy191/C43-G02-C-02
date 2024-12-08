@@ -57,6 +57,24 @@
              */
             #endregion
 
+
+            #region Q6 Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+
+            //string Name1 = "Ahmed";
+            //string Name2 = "Mohamed";
+            //Name1 = Name2;
+            //Console.WriteLine(Name1);
+            //Console.WriteLine(Name2);
+
+            /**
+             * Result:
+             * Name1 will have the address that Name2 reference on 
+             * then both will have reference same address in heap
+             * and have the same value "Mohamed" 
+             * Name1 first address will be not reachable that makes the 
+             * garbage collector remove it soon
+             */
+            #endregion
         }
     }
 }
