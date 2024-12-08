@@ -75,6 +75,14 @@
              * garbage collector remove it soon
              */
             #endregion
+
+            #region Q7 Write C# program that take two string variables and print them as one variable
+            //string Name1 = "Ahmed";
+            //string Name2 = "Mohamed";
+            //Console.WriteLine(string.Format("The Full string is {0} {1}", Name1, Name2));
+            ////or
+            //Console.WriteLine(string.Format(Name1 + " " + Name2));
+            #endregion
         }
     }
 }
